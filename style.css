@@ -21,7 +21,7 @@ body {
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 310px;
+    height: 255px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -30,7 +30,7 @@ body {
 .textContainer {
     background-color: #000000;
     width: 85%;
-    height: 150px;
+    height: 90px;
     display: flex;
     align-items: center;
 }
@@ -84,8 +84,8 @@ nav a {
 
 .profilePhoto {
     right: 20px;
-    width: 250px;
-    height: 250px;
+    width: 190px;
+    height: 190px;
     border-radius: 1000px;
     border: 30px solid #000000;
 }
@@ -145,6 +145,7 @@ hr {
 
 .videoBlock {
     display: flex;
+    justify-content: space-around;
     gap: 5%;
     width: 100%;
 }
