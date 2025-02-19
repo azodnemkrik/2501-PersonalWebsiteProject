@@ -143,6 +143,16 @@ hr {
     margin-bottom: 50px;
 }
 
+.videoBlock {
+    display: flex;
+    gap: 5%;
+    width: 100%;
+}
+
+.videoDescription {
+    width: 560px;
+}
+
 footer {
     position: fixed;
     bottom: 0px;
