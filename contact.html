@@ -19,7 +19,7 @@
             <p class="mainName themeGreen">Kirk Mendoza</p>
             <!-- Navigation Menu -->
             <nav class="mainMenu">
-                <a class="themeGreen" href="index.html">Home</a>
+                <a class="themeBlue" href="index.html">Home</a>
                 <a class="themePink"  href="about.html">About</a>
                 <a class="themeYellow"  href="portfolio.html">Portfolio</a>
                 <a class="themeGreen selected"  href="contact.html">Contact</a>
@@ -30,14 +30,16 @@
     <div class="mainContent">
         <h3 class="pLabel themeGreen">Let's Connect!</h3>
         <form action="response.html">
-            <label for="firstaName">First Name:</label><br />
-            <input type="text" placeholder="First" /><br />
-            <label for="lastaName">Last Name:</label><br />
-            <input type="text" placeholder="Last" /><br />
-            <label for="email">Email:</label><br />
-            <input type="email" placeholder="me@email.com" /><br />
-            <button type="submit">Submit</button>
-        </form>    </div>
+            <label class="pLabel themeGreen" for="name">Name:</label><br />
+            <input type="text" placeholder="That's You" /><br />
+            <label class="pLabel themeGreen" for="email">Email:</label><br />
+            <input type="email" placeholder="you@youremail.whatevs" /><br />
+            <label class="pLabel themeGreen"  for="message">Message:</label><br />
+            <textarea id="message"></textarea><br />
+            <!-- <input type="email" placeholder="you@youremail.whatevs" /><br /> -->
+            <button id="submitButton" class="pLabel" type="submit">Submit</button>
+        </form>
+    </div>
     <footer>
         <a href="https://www.facebook.com/kirkmendoza/" target="_blank"><img class="icon" src="images/facebook.png" alt="facebook" /></a>
         <a href="https://www.instagram.com/mendoza_kirk/" target="_blank"><img class="icon" src="images/instagram.png" alt="instagram" /></a>
