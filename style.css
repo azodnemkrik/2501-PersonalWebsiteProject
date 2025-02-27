@@ -82,6 +82,11 @@ nav a {
     color: #FFF000;
 }
 
+.themeGreen {
+    color: #007e00;
+}
+
+
 
 .profilePhoto {
     right: 20px;
@@ -104,6 +109,10 @@ nav a {
 
 .backgroundYellow {
     background-color: #fbf383;
+}
+
+.backgroundGreen {
+    background-color: #3ad13a;
 }
 
 
