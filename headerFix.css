@@ -9,12 +9,8 @@ body {
     margin: 0px;
     max-width: 100vw;
     overflow-x: hidden;
-    /* font-variation-settings:
-      "width" 100;
-      margin: 0;
-      padding: 0;
-      padding-bottom: 50px; */
 }
+
 .float {
     display: block;
     position: absolute;
@@ -154,31 +150,8 @@ a.mainMenuPortrait {
 
 
 
-/* RESPONSIVE MEDIA QUERIES - START */
-@media (max-width:1450px) {
-    .portrait {
-        visibility: visible;
-        display: flex;
-    }
-    .landscape {
-        visibility: hidden;
-        display: none;
-    } 
-}
-@media (min-aspect-ratio: 16/9) {}
-@media (min-aspect-ratio: 3/4) {}
-@media (min-aspect-ratio: 4/3) {}
-/* RESPONSIVE MEDIA QUERIES - END */
-
-
-
-
-
-
 .selected {
     text-decoration:underline;
-    /* font-size: 18px; */
-    /* font-size: 2vw; */
     color: #0099ff;
 }
 
@@ -197,9 +170,6 @@ a.mainMenuPortrait {
 .themeGreen {
     color: #007e00;
 }
-
-/* HEADER BLOCK - END */
-
 
 .backgroundBlue {
     background-color: #b6e2ff;
@@ -221,21 +191,109 @@ a.mainMenuPortrait {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+/* RESPONSIVE MEDIA QUERIES - START */
+@media (max-width:1450px) {
+    .portrait {
+        visibility: visible;
+        display: flex;
+    }
+    .landscape {
+        visibility: hidden;
+        display: none;
+    } 
+}
+@media (min-aspect-ratio: 16/9) {}
+@media (min-aspect-ratio: 3/4) {}
+@media (min-aspect-ratio: 4/3) {}
+/* RESPONSIVE MEDIA QUERIES - END */
 
 
 
 /* KEEP THE SAME BELOW */
+
+p {
+    font-size: 20px;
+}
+
+.pLabel {
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+hr.pinkHR {
+    border: 0px;
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top: 5px dotted #ff00ff;;
+}
+
+.videoBlock {
+    display: flex;
+    justify-content: space-around;
+    gap: 5%;
+    width: 100%;
+}
+
+.videoDescription {
+    width: 560px;
+}
+
+.familyPhoto {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;    
+}
+
+
+/* CONTACT */
+#message {
+    width: 50%;
+    height: 300px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+form > input {
+    width: 50%;
+    height: 25px;
+    margin-bottom: 20px;
+    padding: 5px 0 5px 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#submit {
+    border: none;
+    color: #007e00;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#submit:hover {
+    color: #00a800;
+}
+
+a {
+    text-decoration: none;
+}
+
+.backButton {
+
+}
+
+.backButton:hover {
+    color: #00a800;
+}
+
 
 footer {
     position: fixed;
