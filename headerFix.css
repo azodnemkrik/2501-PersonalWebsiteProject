@@ -24,10 +24,6 @@ a {
     text-decoration: none;
 }
 
-
-
-
-
 /* HEADER LANDSCAPE - START */
 .headerLandscape {
     position: fixed;
@@ -95,7 +91,14 @@ a.mainMenu {
     border: 30px solid #000000;
     margin-right: 20px ;
 }
+
+.portrait {
+    visibility: hidden;
+    display: none;
+}
 /* HEADER LANDSCAPE - END */
+
+
 
 /* HEADER PORTRAIT - START */
 .headerPortrait {
@@ -142,15 +145,34 @@ a.mainMenuPortrait {
     text-decoration: none;
 }
 
-
-
-
 .profilePhotoPortrait {
     width: 20vw;
     border-radius: 1000px;
     margin-top: 20px ;
 }
 /* HEADER PORTRAIT - END */
+
+
+
+/* RESPONSIVE MEDIA QUERIES - START */
+@media (max-width:1450px) {
+    .portrait {
+        visibility: visible;
+        display: flex;
+    }
+    .landscape {
+        visibility: hidden;
+        display: none;
+    } 
+}
+@media (min-aspect-ratio: 16/9) {}
+@media (min-aspect-ratio: 3/4) {}
+@media (min-aspect-ratio: 4/3) {}
+/* RESPONSIVE MEDIA QUERIES - END */
+
+
+
+
 
 
 .selected {
